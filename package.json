@@ -1,0 +1,32 @@
+{
+  "name": "webext-i18n",
+  "version": "1.0.0",
+  "description": "Encapsulates the access to i18n localised text resources for WebExtensions.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec",
+    "all": "npm run build && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabeleced77/webext-i18n.git"
+  },
+  "keywords": [
+    "i18n",
+    "WebExtension\u0014s"
+  ],
+  "author": "Kabeleced",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kabeleced77/webext-i18n/issues"
+  },
+  "homepage": "https://github.com/kabeleced77/webext-i18n#readme",
+  "devDependencies": {
+    "@types/chrome": "0.0.88",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "sinon-chrome": "^3.0.1"
+  }
+}
