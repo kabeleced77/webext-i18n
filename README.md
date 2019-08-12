@@ -3,7 +3,7 @@ Encapsulates the access to i18n localised text resources for WebExtensions.
 
 ## Installation 
 ```sh
-npm install webext-i18n --save
+npm install @kabeleced/webext-i18n
 ```
 
 ## Usage
