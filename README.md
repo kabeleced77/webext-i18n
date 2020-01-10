@@ -50,7 +50,7 @@ import { II18nText, I18nText } from 'webext-i18n';
 
 function printText(text: II18nText, textWithSubstitution: II18nText) {
   console.log('Text: ' + text.value());
-  console.log('Text with substituion: ' + textWithSubstitution.value());    
+  console.log('Text with substituion: ' + textWithSubstitution.value("World"));    
 }
 
 printText(new I18nText('text'), new I18nText('text_substitution'));
