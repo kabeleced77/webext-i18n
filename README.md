@@ -28,7 +28,7 @@ Assume you have following `message.json`file in your WebExtension folder `_local
 
 ### Javascript
 ```javascript
-const I18Text = require('webext-i18n').I18nText;
+const I18Text = require('@kabeleced/webext-i18n').I18nText;
 
 const text = new I18nText('text').value();
 const textWithSubstitution = new I18nText('text_substitution').value("World");
@@ -48,7 +48,7 @@ Text with substitution: Hello World!
 With TypeScript the usage of the interface `II18nText` is possible:
 
 ```typescript
-import { II18nText, I18nText } from 'webext-i18n';
+import { II18nText, I18nText } from '@kabeleced/webext-i18n';
 
 function printText(text: II18nText, textWithSubstitution: II18nText) {
   console.log('Text: ' + text.value());
