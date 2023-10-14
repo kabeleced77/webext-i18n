@@ -1,6 +1,6 @@
 [![Build Status](https://app.travis-ci.com/kabeleced77/webext-i18n.svg?branch=master)](https://app.travis-ci.com/kabeleced77/webext-i18n)
 
-# webext-i18n
+# webext-i18n 
 Encapsulates the access to i18n localised text resources for WebExtensions.
 
 ## Installation 
